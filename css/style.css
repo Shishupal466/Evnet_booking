@@ -182,6 +182,33 @@
   .registration button:hover {
     background-color: #e36d2d;
   }
+
+
+  /* Payment Page */
+  .container{
+    text-align: center;
+    height: 600px;
+    width: 500px;
+    margin: auto;
+    background-color: rgb(184, 171, 171);
+    
+    border-radius: 10px;
+    box-shadow: 0 10px 8px rgba(0,0,0 , 0.1);
+    
+  }
+  .container img{
+    height: 70px;
+    width: 100px;
+  }
+
+  .imgName{
+    height: auto;
+    width: 150px;
+    border: solid 5px blue;
+    margin: auto;
+    display: block;
+    flex:auto;
+  }
   
   /* Footer */
   footer {
