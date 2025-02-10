@@ -5,6 +5,13 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Event Registration</title>
   <link rel="stylesheet" href="css/style.css">
+  <script>
+    // Function to handle button click and redirect to the next page
+    // const goToNextPage = ()=>{
+    //   // Redirect to the new page
+    //   window.location.href = 'payment1.html'; 
+    // };
+  </script>
 </head>
 <body>
   <header>
@@ -14,6 +21,7 @@
         <li><a href="registration.html">Register</a></li>
         <li><a href="schedule.html">Schedule</a></li>
         <li><a href="about.html"> About Us</a></li>
+        <!-- <li><a href="payment1.html">Payment</a></li> -->
       </ul>
     </nav>
   </header>
@@ -34,7 +42,7 @@
         <option value="vip">VIP Ticket</option>
       </select>
 
-      <button type="submit" class="cta-button">Submit Registration</button>
+      <button type="submit" class="cta-button" onclick="goToNextPage()">Submit Registration</button>
     </form>
   </section>
 

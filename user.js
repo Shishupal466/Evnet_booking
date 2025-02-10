@@ -13,10 +13,21 @@ document.addEventListener('DOMContentLoaded',()=>{
         const ticket = document.getElementById("ticket");
         
         // validation process of all variable 
-        if (!name || !email){
-            alert("please fill out properly.")
-            return ;
-        }
+        // if (!name || !email){
+        //     alert("please fill out properly.")
+        //     return ;
+        // }
+
+        if(name || email){
+            
+            // Redirect to the new page
+            window.location.href = 'payment1.html'; 
+            
+        }else{
+            alert("please fill out properly")
+            }
+
+        
 
         // print all varibale data in the console 
 
@@ -36,5 +47,7 @@ document.addEventListener('DOMContentLoaded',()=>{
         return emailRegex.test(email);
     }
 });
+
+
 
 

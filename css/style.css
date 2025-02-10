@@ -185,6 +185,8 @@
 
 
   /* Payment Page */
+ 
+  
   .container{
     text-align: center;
     height: 600px;
@@ -204,10 +206,15 @@
   .imgName{
     height: auto;
     width: 150px;
-    border: solid 5px blue;
-    margin: auto;
     display: block;
-    flex:auto;
+    border-radius: 15px;
+    /* display: inline-block; */
+    padding-top: 10px;
+    padding-bottom: 5px;
+    background-color: white;
+    margin:15px;
+    justify-content: center;
+    
   }
   
   /* Footer */
